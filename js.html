@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script</title>
+</head>
+<body>
+    <script>
+        console.log ("Teste");
+        /*function add7 (number){
+            return (number + 7);
+        }
+        console.log (add7(5));*/
+        let num = parseInt(prompt("Escreva o numero para o FizzBuzz: "));
+        console.log (`O numero digitado é: ${num}`);
+        let i = 1;
+        while (i <= num){
+            if (i % 3 === 0 & i % 5 === 0){
+                console.log("FizzBuzz");
+            } else if (i % 3 === 0) {
+                console.log("Fizz");
+            } else if (i % 5 === 0){
+                console.log("buzz");
+            } else {
+                console.log(i);
+            }
+            i++;
+        }
+    </script>
+</body>
+</html>
